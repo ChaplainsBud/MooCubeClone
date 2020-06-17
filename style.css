@@ -1,0 +1,59 @@
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrap1, .wrap2, .wrap3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrap1 > li:first-child {
+    margin-left: 4px;
+}
+
+.wrap1 > li:nth-child(2) {
+    margin-left: 20px;
+}
+
+input {
+    width: 400px;
+}
+
+.wrap3 > li {
+  margin: 5px;
+}
+
+
+.Recommendations > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.sidebar1, .sidebar2, .sidebar3, .sidebar3, .sidebar4, .sidebar5 {
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 10%;
+
+}
+
+.sidebar6 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
